@@ -13,66 +13,96 @@
       line-height: 1.6;
       color: #2e2e2e;
     }
+
     h1 {
       text-align: center;
       font-size: 2.4em;
       color: #c97c97;
       margin-bottom: 10px;
     }
+
     h2 {
       color: #c97c97;
       border-bottom: 1px solid #e5c6c6;
       padding-bottom: 4px;
       margin-top: 30px;
     }
+
     p, ul {
       font-size: 1.05em;
     }
+
     ul {
       padding-left: 20px;
     }
+
     .profile-pic {
       width: 150px;
       border-radius: 50%;
       display: block;
       margin: 30px auto 20px auto;
     }
+
+    .button-group {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #f3e0e6;
+      color: #c97c97;
+      padding: 10px 20px;
+      border-radius: 30px;
+      border: 2px solid #c97c97;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #c97c97;
+      color: white;
+    }
+
+    .about {
+      margin-bottom: 30px;
+    }
+
+    .contact strong {
+      display: inline-block;
+      width: 100px;
+    }
   </style>
 </head>
 <body>
+
   <img src="profile.jpg" alt="Rabia Nur Ardıç" class="profile-pic">
 
-  <p style="text-align: center; margin-top: 10px;">
-    <a href="ArdicCV.pdf" download style="background-color: #c97c97; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
-      📄 Download CV (PDF)
-    </a>
-  </p>
-
-  <p style="text-align: center; margin-top: 10px;">
-    <a href="https://www.linkedin.com/in/rabia-ardıç-0997a4172/" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" style="width:26px; vertical-align: middle; margin-right: 6px;">
-      <span style="font-weight: bold; color: #c97c97;">LinkedIn</span>
-    </a>
-  </p>
-
-  <p style="text-align: center; margin-top: 10px;">
-    <a href="mailto:rabiaardicc@gmail.com" style="background-color: #c97c97; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold;">
-      ✉️ Email Me
-    </a>
-  </p>
+  <div class="button-group">
+    <a href="ArdicCV.pdf" class="button" download>📄 Download CV (PDF)</a>
+    <a href="https://www.linkedin.com/in/rabia-ardıç-0997a4172/" class="button" target="_blank">🔗 LinkedIn</a>
+    <a href="mailto:rabiaardicc@gmail.com" class="button">✉️ Email Me</a>
+  </div>
 
   <h1>Rabia Nur Ardıç</h1>
 
-  <h2 style="margin-top: 30px;">About Me</h2>
-  <p style="margin-bottom: 20px; line-height: 1.6; font-size: 1.05em;">
-    I am a master's student in Interdisciplinary Studies of the Middle East at Freie Universität Berlin.  
-    My research focuses on Ottoman modernization, temporal regimes (such as clock towers and timekeeping structures), and digital humanities.  
-    I am particularly interested in urban history, spatial transformation, and the digital mapping of visual and architectural sources.
-  </p>
-
-  <p><strong>Date of birth:</strong> 26 August 1996<br>
-  <strong>Email:</strong> rabiaardicc@gmail.com<br>
-  <strong>Location:</strong> Berlin, Germany</p>
+  <div class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a master's student in Interdisciplinary Studies of the Middle East at Freie Universität Berlin.
+      My research focuses on Ottoman modernization, temporal regimes (such as clock towers and timekeeping structures),
+      and digital humanities. I am particularly interested in urban history, spatial transformation, and the digital mapping of
+      visual and architectural sources.
+    </p>
+    <p class="contact">
+      <strong>Date of birth:</strong> 26 August 1996<br>
+      <strong>Email:</strong> rabiaardicc@gmail.com<br>
+      <strong>Location:</strong> Berlin, Germany
+    </p>
+  </div>
 
   <h2>Research Interests</h2>
   <ul>
@@ -85,42 +115,10 @@
 
   <h2>Volunteer Experience</h2>
   <p><strong>OFF-University (01/2025 – Present) – Volunteer Student Assistant</strong><br>
-  – Organized course-related content in chronological order.<br>
-  – Arranged website content based on historical timelines.<br>
-  – Assisted with annual conference preparation and event planning.<br>
-  – Managed mailing operations and correspondence.</p>
+    - Organized course-related content in chronological order.<br>
+    - Arranged website content based on historical timelines.<br>
+    - Assisted with annual conference preparation and event planning.
+  </p>
 
-  <h2>Work Experience</h2>
-  <p><strong>Forum Transregionale Studien (09/2022 – 01/2023) – Student Assistant</strong><br>
-  – Conducted bilingual (EN & TR) media content analysis.<br>
-  – Created keyword lists and provided project support.<br>
-  – Organized data and assisted with archival research.</p>
-
-  <p><strong>Humanist Publishing for British Council (11/2021 – 03/2022) – Project Assistant</strong><br>
-  – Created project documentation and content.<br>
-  – Coordinated travel and event logistics.<br>
-  – Contributed to research and applications.</p>
-
-  <p><strong>Metrobi DMV Launch (10/2021 – 02/2022) – Part-time Member</strong><br>
-  – Conducted research on U.S. companies and created Excel reports.</p>
-
-  <p><strong>Ortadoğu Postası (09/2021 – 12/2021) – Content Creator</strong><br>
-  – Monitored and analyzed Middle East news content.</p>
-
-  <h2>Education</h2>
-  <p><strong>Freie Universität Berlin</strong><br>
-  MA – Interdisciplinary Studies of the Middle East (2022 – Present)</p>
-
-  <p><strong>Boğaziçi University</strong><br>
-  BA – History (2017 – 2021)</p>
-
-  <h2>Languages</h2>
-  <ul>
-    <li>Turkish – Native</li>
-    <li>English – Fluent</li>
-    <li>German – Intermediate</li>
-    <li>Ottoman Turkish – Reading</li>
-    <li>Arabic – Basic</li>
-  </ul>
 </body>
 </html>
